@@ -1,0 +1,53 @@
+.caja {
+    height: 250px;
+    background-image: linear-gradient(to right,  #b3c953 8%,#7dd87d 120%);
+    transform: skewY(-4deg);
+}
+.caja.titulo {
+    position: absolute;
+}
+.caja .titulo .t1 {
+    color: #ffffff;
+    font-size: 50px;
+    transform: skewY(4deg);
+    padding-left: 300px;
+    padding-top: 80px;
+}
+h1{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+h2{
+    color: rgb(255, 69, 22);
+    font-size: 30px;
+    transform: skewY(4deg);
+    padding-left: 300px;
+    padding-top: 0px;
+    display: block;
+    margin-top: 0px;
+
+}
+body{
+   background: #ffffff;
+   font-family: 'Baloo Tamma 2', Georgia;
+}
+.img1{
+    width: 12%;
+    float: right;
+    transform: skewY(4deg);
+    margin-top: 50px;
+    margin-right: 70px;
+    padding-left: 20px;
+}
+.img2{
+    transform: skewY(0deg);
+    width: 15em;
+    display: inline;
+    margin-left: 40%;
+}
+.text{
+    margin-top: 10%;
+    display: inline-block;
+
+   
+}

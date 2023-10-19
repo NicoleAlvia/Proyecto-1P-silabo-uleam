@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario registro de asignatura</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Carattere&family=Courgette&family=Fredericka+the+Great&family=Parisienne&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/Formulario_Registro.png">
+    <link rel="stylesheet" href="css/Registro_asignatura.css">
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div class="titulo">
+        <img src="img/logo.png" alt="">
+        <h2>Automatización de sílabos ULEAM</h2>
+    </div>
+    <main>
+        <h1>Registro de asignaturas</h1>
+        <form action="" class="formulario" id="formulario">
+            <!-- CODIGO-->
+            <div class="formulario__grupo" id="grupo__codigo">
+                <label for="codigo" class="formulario__label">Código de la asignatura</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="codigo" id="codigo" placeholder="123456">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">Los códigos de la materia deben tener de 4 a 10 digitos</p>
+            </div>
+
+            <!-- NOMBRE ASIGNATURA-->
+            <div class="formulario__grupo" id="grupo__asignatura">
+                <label for="asignatura" class="formulario__label">Asignatura</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="asignatura" id="asignatura" placeholder="Aplicaciones web1">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">La asignatura contará con letras de la A a la Z y número de 4 a 8 digitos</p>
+            </div>
+
+            <!-- CARRERA-->
+            <div class="formulario__grupo" id="grupo__carrera">
+                <label for="Carrera" class="formulario__label">Nombre de la carrera</label>
+                <div class="formulario__grupo-input">
+                    <input type="carrera" class="formulario__input" name="carrera" id="carrera" placeholder="Tencología de la información">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">El campo tiene que ser de 4 a 16 dígitos y solo puede contener números, letras y guión bajo.</p>
+            </div>
+
+            <!-- NIVEL -->
+            <div class="formulario__grupo" id="grupo__nivel">
+                <label for="nivel" class="formulario__label">Ingrese su nivel</label>
+                <div class="formulario__grupo-input">
+                    <input type="nivel" class="formulario__input" name="nivel" id="nivel" placeholder="Quinto semestre">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">En que se imparte la asignatura, por ejemplo, primer nivel, segundo nivel</p>
+            </div>
+
+            <!-- DOCENTE-->
+            <div class="formulario__grupo" id="grupo__docente">
+                <label for="docente" class="formulario__label">Docente</label>
+                <div class="formulario__grupo-input">
+                    <input type="Docente" class="formulario__input" name="docente" id="docente" placeholder="Ing. Patricia Quiroz">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error"> Deber tener letras de la A - Z</p>
+            </div>
+            <div class="formulario__mensaje" id="formulario__mensaje">
+                <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+            </div>
+
+            <div class="formulario__grupo formulario__grupo-btn-enviar">
+                <!--<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Se ingreso la asignatura exitosamente!</p>-->
+                <button id="btnsavea" type="submit" class="formulario__btn">Ingresar</button>
+                <button type="button" class="formulario__btn" onclick="cancelar()">Cancelar</button>
+                <button type="button" class="formulario__btn" onclick="volver()">Volver</button>
+            </div>
+        </form>
+    </main>
+
+    <Script src="js/Registro_asignatura.js"></Script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+<script src="js/firebase.js"></script>
+
+</html>

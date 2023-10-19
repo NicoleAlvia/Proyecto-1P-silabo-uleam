@@ -1,0 +1,63 @@
+body {
+    font-family: 'Baloo Tamma 2', Georgia;
+    /* aqui se cambia el fondo */
+    background-color: #e2d4d4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+/* color del contenedor */
+
+    background-color: #b7e4b7;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    /* bordes color*/
+    border: 2px solid #141515;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+    color: #009688;
+}
+
+.profesor-info {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    /* letras y bordes de profesor */
+    background-color: #fff;
+    border: 2px solid #009688;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.profesor-info:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+#profesor-nombre {
+    font-size: 24px;
+    margin: 0;
+    color: #009688;
+}
+
+#profesor-desc, #profesor-correo, #profesor-telefono, #profesor-asignatura {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}

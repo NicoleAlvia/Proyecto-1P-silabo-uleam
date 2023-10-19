@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo Tamma 2', Georgia;
+}
+
+.cabecera {
+    background: #fff;
+    width: 100%;
+    height: 5em;
+}
+
+h1 {
+    display: inline-block;
+    margin-left: 12em;
+    margin-top: 1em;
+    color: rgba(209, 51, 51, 0.993);
+    font-size: 2em;
+}
+
+.logo {
+    width: 5%;
+    float: right;
+    margin-right: 3em;
+}
+
+.user {
+    width: 2.5%;
+    float: right;
+    margin-right: 2em;
+    display: inline-block;
+    padding-top: 7px;
+}
+
+.logosilabo {
+    width: 9%;
+    float: left;
+    padding-top: 7px;
+    margin-left: 2em;
+}
+
+.cabecera2 {
+    width: 100%;
+    height: 3em;
+    background: rgb(255, 39, 39);
+}
+
+.icono {
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 1px;
+    float: right;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.buscar {
+    float: right;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+.bbuscar {
+    width: 6em;
+    height: 2em;
+    border: none;
+    background: rgb(255, 255, 255);
+}
+
+.inputs {
+    border: none;
+    background: #fff;
+    width: 15em;
+    height: 2em;
+    position: relative;
+}
+
+header {
+    width: 100%;
+}
+
+.navegacion {
+    width: 100%;
+    background-image: linear-gradient(to right, #b3c953 8%, #7dd87d 120%);
+    color: #fff;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: #000000;
+    font-family: 'Baloo Tamma 2', Georgia;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #f7f7f7;
+    transition: all .3s;
+}
+
+
+/* Submenu*/
+
+.submenu {
+    position: absolute;
+    background: #ff3030;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0em;
+    margin-top: 0.1px;
+}
+
+.destacado1 {
+    width: auto;
+    padding: 2em;
+    margin-left: 4em;
+    padding-left: 4em;
+}
+
+.destacado,
+.silabos {
+    background-color: rgb(236, 235, 235);
+    width: 80em;
+    margin-left: 8em;
+    padding: 0em;
+    border-radius: 0.5em;
+    margin-bottom: 2em;
+}
+
+.imag {
+    width: 23em;
+    height: 28em;
+}
+
+.titulo1 {
+    font-size: 1.5em;
+    margin-left: 6em;
+    margin-top: 1em;
+    color: rgb(212, 31, 31);
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+h4 {
+    color: rgb(255, 6, 56);
+    font-size: 1.3em;
+}
+
+.rede {
+    color: #fff;
+    margin: 0.5em;
+    font-size: 1.3em;
+}
+
+.info,
+.redes {
+    margin-left: 5em;
+    margin-bottom: 0.8em;
+}
+
+footer {
+    width: 100%;
+    background-image: linear-gradient(to right, #b3c953 8%, #7dd87d 120%);
+}

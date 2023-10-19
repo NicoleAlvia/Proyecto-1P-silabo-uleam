@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0beac2d065.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css">
+    <script src="js/script.js"></script>
+    <title>Inicio</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecera">
+            <img class="logo" src="img/logo.png" alt="">
+            <img class="logosilabo" src="img/silabo.png" alt="">
+            <h1>Automatización de sílabos ULEAM</h1>
+        </div>
+        <div class="cabecera2">
+            <div class="iconos">
+                <a class="icono" href="index.html"><i class=" icon fas fa-sign-out-alt"></i></a>
+                <a class="icono" href="perfil.html"><i class=" icon fas fa-user"></i></a>
+                <a class="icono" href=""> <i class=" icon fas fa-bell" onclick="notificacion()"></i> </a>
+            </div>
+            <div class="buscar">
+                <input class="inputs" placeholder="Buscar sílabos">
+                <button class="bbuscar">Buscar <i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li>
+                    <a href="#"> <i class="fas fa-pen-square"></i> Gestion de sílabos</a>
+                    <ul class="submenu">
+                        <li><a href="Registro_asignatura.html"> Registrar asignatura  <i class="fas fa-pencil-alt"></i> </a></li>
+                        <li><a href="Registro_silabo.html">Subir sílabo <i class="fas fa-upload"></i> </a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="fas fa-bookmark"></i>  Destacado</a>
+                    <ul class="submenu">
+                        <li><a href="#">Sílabo 1</a></li>
+                        <li><a href="#">Sílabo 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="docente.html"> <i class="far fa-user"></i> Docente</a>
+                </li>
+                <li><a href="#"><i class="fas fa-book"></i> Asignaturas</a>
+                    <ul class="submenu">
+                        <li><a href="#">Asignatura 1</a></li>
+                        <li><a href="#">Asignatura 2</a></li>
+                        <li><a href="#">Asignatura3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#"> <i class="fas fa-book-open"></i> Sílabos</a>
+                    <ul class="submenu">
+                        <li><a href="#">Sílabo 1</a></li>
+                        <li><a href="#">Sílabo 2</a></li>
+                        <li><a href="#">Sílabo 3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="incidencias.html"> <i class="fas fa-exclamation-triangle"></i> Incidencias</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <p class="titulo1"> <i class="  fas fa-bookmark"></i> Destacados</p>
+    <section class="destacado">
+        <div class="grid-container">
+            <div class="destacado1">
+                <h2>Destacado </h2><br>
+                <img class="imag" src="img/img1.jpg" alt=""><br><br>
+                <h3>Aplicaciones web I</h3> <br>
+                <p><strong>Docente:</strong> Ing. Patricia Quiroz</p>
+                <p><strong>Semestre:</strong> Quinto</p>
+                <p><strong>Carrera:</strong> Tecnología de la Información</p>
+            </div>
+            <div class="destacado1">
+                <h2>Destacado </h2><br>
+                <img class="imag" src="img/img2.jpg" alt=""><br><br>
+                <h3>Redes de Computadora</h3> <br>
+                <p><strong>Docente:</strong> Ing. Juan Carlos Sendón</p>
+                <p><strong>Semestre:</strong> Quinto</p>
+                <p><strong>Carrera:</strong> Tecnología de la Información</p>
+            </div>
+        </div>
+    </section>
+    <p class="titulo1"> <i class=" fas fa-book-open"></i> Mis sílabos </p>
+    <section class="silabos">
+        <div class="grid-container">
+            <div class="destacado1">
+                <h2>Sílabo </h2><br>
+                <img class="imag" src="img/img3.jpg" alt=""><br><br>
+                <h3>Gestión de Base de Datos</h3> <br>
+                <p><strong>Docente:</strong> Ing. Robert Moreira Centeno</p>
+                <p><strong>Semestre:</strong> Quinto</p>
+                <p><strong>Carrera:</strong> Tecnología de la Información</p>
+            </div>
+            <div class="destacado1">
+                <h2>Sílabo</h2><br>
+                <img class="imag" src="img/img4.jpg" alt=""><br><br>
+                <h3>Ingeniería de Software I</h3> <br>
+                <p><strong>Docente:</strong> Ing. Jonny Peréz</p>
+                <p><strong>Semestre:</strong> Quinto</p>
+                <p><strong>Carrera:</strong> Tecnología de la Informaciónn</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="grid-container">
+            <div class="info">
+                <h4>Sobre nosostros</h4>
+                <a href="sobrenosostros.html" style="text-decoration: none; color: #000;"> ¿Quienes somos?</a> <br>
+                <a href="contactanos.html" style="text-decoration: none; color: #000;"> Contactanos</a>
+            </div>
+            <div class="redes">
+                <h4>Redes sociales</h4>
+                <a class="rede" href="https://mail.google.com/mail?hl=es"><i class="fas fa-envelope"></i></a>
+                <a class="rede" href="https://www.facebook.com/"> <i class="fab fa-facebook-square"></i></a>
+                <a class="rede" href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+            </div>
+        </div>
+        <div class="copy">
+            <p style="text-align:center">© Software automatización de sílabos ULEAM - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

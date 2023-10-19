@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo Tamma 2', Georgia;
+}
+
+.cabecera {
+    background: #fff;
+    width: 100%;
+    height: 5em;
+}
+
+.funciones {
+    float: right;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.ini-reg {
+    color: rgb(0, 0, 0);
+    margin: 2px;
+    text-decoration: none;
+}
+
+.img-port {
+    width: 100%;
+    margin-top: 2em;
+    position: center;
+}
+
+h1 {
+    display: inline-block;
+    margin-left: 12em;
+    margin-top: 1em;
+    color: rgba(209, 51, 51, 0.993);
+}
+
+.logo {
+    width: 5%;
+    float: right;
+    margin-right: 3em;
+}
+
+.logosilabo {
+    width: 9%;
+    float: left;
+    padding-top: 7px;
+    margin-left: 2em;
+}
+
+.cabecera2 {
+    width: 100%;
+    height: 3em;
+    background-image: linear-gradient(to right, #b3c953 8%, #7dd87d 120%);
+}
+
+.informacion {
+    background: rgb(245, 222, 180);
+    padding-top: 1px;
+    width: 90%;
+    margin-left: 4em;
+}
+
+.buscar {
+    float: right;
+    margin-top: 10px;
+}
+
+.bbuscar {
+    width: 6em;
+    height: 2em;
+    border: none;
+    background: rgb(255, 255, 255);
+}
+
+.inputs {
+    border: none;
+    background: #fff;
+    width: 15em;
+    height: 2em;
+    position: relative;
+}
+
+header {
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0em;
+    margin-top: 0.1px;
+}
+
+.destacado1 {
+    width: auto;
+    padding: 2em;
+    margin-left: 4em;
+    padding-left: 4em;
+}
+
+.destacado,
+.silabos {
+    background-color: rgb(236, 235, 235);
+    width: 80em;
+    margin-left: 8em;
+    padding: 0em;
+    border-radius: 0.5em;
+    margin-bottom: 2em;
+}
+
+.imag {
+    width: 25em;
+    height: 26em;
+}
+
+.titulo1 {
+    font-size: 1.5em;
+    margin-left: 6em;
+    margin-top: 1em;
+    color: rgb(212, 31, 31);
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+h4 {
+    color: rgb(255, 6, 56);
+    font-size: 1.3em;
+}
+
+.rede {
+    color: #fff;
+    margin: 0.5em;
+    font-size: 1.3em;
+}
+
+.info,
+.redes {
+    margin-left: 5em;
+    margin-bottom: 0.8em;
+}
+
+footer {
+    width: 100%;
+    background-image: linear-gradient(to right, #b3c953 8%, #7dd87d 120%);
+}
